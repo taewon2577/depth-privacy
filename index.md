@@ -23,10 +23,10 @@ The app shows rewarded video ads using the Google Mobile Ads SDK (AdMob), togeth
 
 According to Google's published disclosure for the Google Mobile Ads SDK (https://developers.google.com/admob/android/privacy/play-data-disclosure), the SDK automatically collects and shares the following with Google for advertising, analytics, and fraud-prevention purposes:
 
-- Approximate location, estimated from your IP address. The app itself does not request any location permission.
+- IP address, which may be used to estimate your general location. The app itself does not request any location permission.
 - App interactions, such as app launch, taps, and video views.
 - Diagnostics, such as app launch time, hang rate, and energy usage.
-- Device or other identifiers, such as the Android advertising ID and the app set ID.
+- Device or account identifiers, such as the Android advertising ID and the app set ID.
 
 Google states that this data is encrypted in transit using TLS. How Google uses this data is described in Google's Privacy Policy (https://policies.google.com/privacy) and in "How Google uses information from sites or apps that use our services" (https://policies.google.com/technologies/partner-sites).
 
@@ -44,7 +44,7 @@ Your game progress (depth, gold, upgrades, essence, mission and achievement stat
 
 ## 6. Notifications
 
-If you allow notifications when the app asks, the app may schedule one local notification ("your vault is full") about 8 hours after you leave the app. The notification is created on your device, and no server is involved. You can turn notifications off at any time in Android settings.
+The app may schedule one local notification ("Storage is full") about 8 hours after you leave the app. On Android 13 and later the app asks for your permission first; on earlier versions notifications are allowed by default. The notification is created on your device, and no server is involved. You can turn notifications off at any time in Android settings.
 
 ## 7. Children
 
@@ -97,10 +97,10 @@ Open-source components included in the app and their licenses: https://taewon257
 
 Google 이 공개한 Google Mobile Ads SDK 데이터 공개 문서(https://developers.google.com/admob/android/privacy/play-data-disclosure)에 따르면, SDK 는 광고·분석·부정행위 방지를 위해 다음 데이터를 자동으로 수집하여 Google 과 공유합니다.
 
-- 대략적인 위치: IP 주소로 추정합니다. 앱 자체는 위치 권한을 요청하지 않습니다.
+- IP 주소: 대략적인 위치를 추정하는 데 쓰일 수 있습니다. 앱 자체는 위치 권한을 요청하지 않습니다.
 - 앱 상호작용: 앱 실행, 탭, 동영상 시청 등.
 - 진단 정보: 앱 실행 시간, 응답 없음 비율, 에너지 사용량 등.
-- 기기 및 기타 식별자: Android 광고 ID, 앱 세트 ID 등.
+- 기기 및 계정 식별자: Android 광고 ID, 앱 세트 ID 등.
 
 Google 은 이 데이터가 TLS 로 암호화되어 전송된다고 밝히고 있습니다. Google 의 데이터 사용 방식은 Google 개인정보처리방침(https://policies.google.com/privacy)과 "Google 서비스를 사용하는 사이트 또는 앱에서 수집한 정보를 Google 이 사용하는 방법"(https://policies.google.com/technologies/partner-sites)에 설명되어 있습니다.
 
@@ -116,9 +116,9 @@ EEA·영국·스위스 이용자의 동의: 법이 요구하는 경우, 광고�
 
 3절의 광고 SDK 가 수집하는 정보는 다음과 같이 국외로 이전될 수 있습니다.
 
-- 이전받는 자: Google LLC (미국)
+- 이전받는 자: Google LLC (미국) · 연락처: https://support.google.com/policies?p=privpol_privts (Google 개인정보처리방침의 문의 경로)
 - 이전되는 국가: 미국 및 Google 과 그 서비스 제공업체가 데이터를 처리하는 국가
-- 이전되는 항목: IP 주소로 추정한 대략적인 위치, 앱 상호작용, 진단 정보, 광고 ID·앱 세트 ID (3절)
+- 이전되는 항목: IP 주소(대략적인 위치 추정에 쓰일 수 있음), 앱 상호작용, 진단 정보, 기기·계정 식별자(광고 ID·앱 세트 ID 등) (3절)
 - 이전 시기와 방법: 앱이 광고를 불러오거나 보여줄 때 네트워크로 전송 (TLS 암호화)
 - 이전 목적: 광고 제공, 광고 분석, 부정행위 방지
 - 보유·이용 기간: Google 의 보관 정책(https://policies.google.com/technologies/retention)을 따릅니다
@@ -130,7 +130,7 @@ EEA·영국·스위스 이용자의 동의: 법이 요구하는 경우, 광고�
 
 ## 6. 알림
 
-앱이 알림 권한을 요청할 때 허용하시면, 앱을 떠난 뒤 약 8시간이 지나 "창고가 가득 찼습니다" 알림 1건이 예약될 수 있습니다. 알림은 기기에서 만들어지며 서버는 관여하지 않습니다. Android 설정에서 언제든 알림을 끌 수 있습니다.
+앱을 떠난 뒤 약 8시간이 지나 "창고가 가득 찼습니다" 알림 1건이 예약될 수 있습니다. Android 13 이상에서는 먼저 알림 권한을 묻고, 그 이전 버전은 기본으로 허용됩니다. 알림은 기기에서 만들어지며 서버는 관여하지 않습니다. Android 설정에서 언제든 알림을 끌 수 있습니다.
 
 ## 7. 아동
 
