@@ -36,7 +36,7 @@ Consent in the EEA, the UK, and Switzerland: where required by law, the app show
 
 ## 4. Third parties
 
-The only third party that receives data from this app is Google LLC, through the SDKs described in section 3. The ad technology partners Google may work with are listed in the consent form and at https://support.google.com/admob/answer/9012903. We do not sell data, and we do not share data with anyone else.
+The only third party that receives data from this app is Google LLC, through the SDKs described in section 3. The ad technology partners Google may work with are listed in the consent form and at https://support.google.com/admob/answer/9012903. We do not sell data, and we do not share data with anyone else. Google may process this data in the United States and in other countries where Google or its service providers operate. The game is fully playable offline; while your device is offline, the SDKs cannot send anything.
 
 ## 5. Data stored on your device
 
@@ -48,7 +48,7 @@ If you allow notifications when the app asks, the app may schedule one local not
 
 ## 7. Children
 
-The app is not directed to children under 13. We do not knowingly collect personal data from children. The app does not mark its ad requests as directed to children.
+The app is intended for users aged 16 and older and is not directed to children. We do not knowingly collect personal data from children. The app does not mark its ad requests as directed to children.
 
 ## 8. Security
 
@@ -65,6 +65,10 @@ If this policy changes, the new version will be published at this same address w
 ## 11. Contact
 
 Taewon Heo — cagong0501@gmail.com
+
+## 12. Open-source licenses
+
+Open-source components included in the app and their licenses: https://taewon2577.github.io/depth-privacy/licenses.html
 
 ---
 
@@ -108,6 +112,18 @@ EEA·영국·스위스 이용자의 동의: 법이 요구하는 경우, 광고�
 
 이 앱에서 데이터를 받는 제3자는 3절의 SDK 를 통한 Google LLC 뿐입니다. Google 이 함께 일할 수 있는 광고 기술 파트너는 동의 양식과 https://support.google.com/admob/answer/9012903 에 나와 있습니다. 개발자는 데이터를 판매하지 않으며 다른 누구와도 공유하지 않습니다.
 
+### 개인정보의 국외 이전
+
+3절의 광고 SDK 가 수집하는 정보는 다음과 같이 국외로 이전될 수 있습니다.
+
+- 이전받는 자: Google LLC (미국)
+- 이전되는 국가: 미국 및 Google 과 그 서비스 제공업체가 데이터를 처리하는 국가
+- 이전되는 항목: IP 주소로 추정한 대략적인 위치, 앱 상호작용, 진단 정보, 광고 ID·앱 세트 ID (3절)
+- 이전 시기와 방법: 앱이 광고를 불러오거나 보여줄 때 네트워크로 전송 (TLS 암호화)
+- 이전 목적: 광고 제공, 광고 분석, 부정행위 방지
+- 보유·이용 기간: Google 의 보관 정책(https://policies.google.com/technologies/retention)을 따릅니다
+- 거부 방법과 효과: 기기 설정에서 광고 ID 를 삭제하거나 광고 개인 최적화를 해제할 수 있습니다. 기기를 오프라인으로 두면 아무것도 전송되지 않으며, 이 게임은 오프라인에서도 이용할 수 있습니다.
+
 ## 5. 기기에 저장되는 데이터
 
 게임 진행 상황(깊이, 골드, 강화, 정수, 임무·도전과제 상태, 광고 대기 시간)은 기기 안 앱 전용 저장 공간의 작은 텍스트 파일에 저장됩니다. 앱은 이 파일을 어디에도 업로드하지 않습니다. 앱을 삭제하면 함께 삭제됩니다. 기기의 Android 백업 설정에 따라 Android 가 앱 데이터를 이용자의 Google 계정 백업에 포함할 수 있으며, 그 백업은 개발자가 아니라 이용자와 Google 이 관리합니다.
@@ -118,7 +134,7 @@ EEA·영국·스위스 이용자의 동의: 법이 요구하는 경우, 광고�
 
 ## 7. 아동
 
-이 앱은 13세 미만 아동을 대상으로 하지 않습니다. 개발자는 아동의 개인정보를 고의로 수집하지 않습니다. 앱은 광고 요청을 아동 대상으로 표시하지 않습니다.
+이 앱은 만 16세 이상 이용자를 대상으로 하며 아동을 대상으로 하지 않습니다. 개발자는 아동의 개인정보를 고의로 수집하지 않습니다. 앱은 광고 요청을 아동 대상으로 표시하지 않습니다.
 
 ## 8. 보안
 
@@ -135,3 +151,7 @@ EEA·영국·스위스 이용자의 동의: 법이 요구하는 경우, 광고�
 ## 11. 문의
 
 Taewon Heo — cagong0501@gmail.com
+
+## 12. 오픈소스 라이선스
+
+앱에 포함된 오픈소스 구성요소와 라이선스: https://taewon2577.github.io/depth-privacy/licenses.html
