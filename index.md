@@ -32,7 +32,7 @@ Google states that this data is encrypted in transit using TLS. How Google uses 
 
 You can reset or delete your advertising ID, and opt out of ads personalization, in your device's Android settings (Settings > Google > Ads, or Settings > Privacy > Ads, depending on the device). Google also provides ad controls at https://myadcenter.google.com.
 
-Consent in the EEA, the UK, and Switzerland: where required by law, the app shows Google's consent form (UMP SDK) before ads are requested. The SDK stores your choice on your device.
+Consent in the EEA, the UK, and Switzerland: where required by law, the app shows Google's consent form (UMP SDK) before ads are requested. The SDK stores your choice on your device. To change your choice later, tap the Missions badge at the top left of the Dungeon screen, then tap "Ad consent settings" at the bottom of the Missions panel. This link appears only where the consent form applies.
 
 ## 4. Third parties
 
@@ -102,7 +102,7 @@ Google 은 이 데이터가 TLS 로 암호화되어 전송된다고 밝히고 �
 
 광고 ID 재설정·삭제와 광고 개인 최적화 해제는 기기의 Android 설정에서 할 수 있습니다(기기에 따라 설정 > Google > 광고, 또는 설정 > 개인정보 보호 > 광고). Google 의 광고 설정은 https://myadcenter.google.com 에서도 관리할 수 있습니다.
 
-EEA·영국·스위스 이용자의 동의: 법이 요구하는 경우, 광고를 요청하기 전에 Google 의 동의 양식(UMP SDK)이 표시됩니다. 선택 내용은 SDK 가 기기에 저장합니다.
+EEA·영국·스위스 이용자의 동의: 법이 요구하는 경우, 광고를 요청하기 전에 Google 의 동의 양식(UMP SDK)이 표시됩니다. 선택 내용은 SDK 가 기기에 저장합니다. 나중에 선택을 바꾸려면 던전 화면 왼쪽 위의 임무 배지를 누른 뒤 임무 패널 맨 아래의 "광고 동의 설정"을 누르세요. 이 링크는 동의 양식이 적용되는 지역에서만 보입니다.
 
 ## 4. 제3자
 
