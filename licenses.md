@@ -10,6 +10,7 @@ The lists below were generated from the actual release build (resolved Gradle de
 |---|---|---|
 | Pretendard (font · 글꼴) — Copyright (c) 2021 Kil Hyung-jin | 1.309 | SIL Open Font License 1.1 (full text below) |
 | Liberation Sans (TextMesh Pro fallback font · 기본 대체 글꼴) — Digitized data copyright (c) 2010 Google Corporation; Copyright (c) 2012 Red Hat, Inc. | 2.00.1 | SIL Open Font License 1.1 (full text below) |
+| Tiny Dungeon (pixel art · 픽셀 그림) — Kenney, www.kenney.nl | 1.0 | CC0 1.0 Universal (public domain dedication; attribution not required — credited with thanks: Art by Kenney) |
 | Google Mobile Ads Unity Plugin (com.google.ads.mobile) — Copyright Google LLC | 11.5.0 | Apache License 2.0 (full text below) |
 | Unity UI (com.unity.ugui, includes TextMesh Pro) — © 2015 Unity Technologies | 2.6.0 | Unity Companion License: https://unity3d.com/legal/licenses/unity_companion_license |
 | Universal Render Pipeline (com.unity.render-pipelines.universal) — © 2020 Unity Technologies ApS | 17.6.0 | Unity Companion License |
